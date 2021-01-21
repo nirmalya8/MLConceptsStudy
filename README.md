@@ -1,4 +1,7 @@
 # MLConceptsStudy
 
 # Curve Fitting
-Polynomial Curve fitting has been conducted. We have used a synthetically prepared a dataset based on the sine function. To create a dataset, say for a data point x, we have used y(x) = sin(x) + Some random number between 0 to 1. These x and y values will form the dataset we want to fit the polynomial curve on. As we can see that the actul function will be a bit different from sin x, as suggested by the plot we did. 
+Polynomial Curve fitting has been conducted. We have used a synthetically prepared a dataset based on the sine function, adding some random noise to each datapoint. So, the actual function will be a bit different from sin x.
+We have considered a polynomial to be of the form :
+$$ yhat = w_0 +w_1 x^1+w_2x^2+ \dots + w_nx^n $$
+
